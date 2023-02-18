@@ -5,9 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - A main function
- *
- * Return: 0
- */ 
+ * 
 int main(void)
 {
 	int n;
@@ -21,6 +19,5 @@ int main(void)
 		printf("%d is zero", n);
 	else (n < 0)
 		printf("%d is negative", n);
-		printf("\n")
 	return (0);
 }
